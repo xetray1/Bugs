@@ -67,7 +67,8 @@ const App = () => {
             <Contact />
             <Footer />
           </div>
-        </div>
+        </div><>
+        </>
       </div>
     </>
   );
