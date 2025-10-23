@@ -9,7 +9,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "mobile:dev": "npm run dev --prefix mobile-app",
+    "mobile:build": "npm run build --prefix mobile-app",
+    "mobile:preview": "npm run preview --prefix mobile-app"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

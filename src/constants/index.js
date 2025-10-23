@@ -59,7 +59,7 @@ const aboutContent = {
     "Docker",
   ],
   stats: [
-    { value: "300+", label: "DSA & CP Problems Solved" },
+    { value: "600+", label: "DSA & CP Problems Solved" },
     { value: "4", label: "Production Deployments (Web & Cloud)" },
     { value: "5+", label: "Tech Events & Workshops Led" },
   ],
@@ -73,8 +73,8 @@ const aboutContent = {
 };
 
 const counterItems = [
-  { value: 1, suffix: "+", label: "Years Building SaaS Dashboards" },
-  { value: 300, suffix: "+", label: "DSA & CP Problems Solved" },
+  { value: 2, suffix: "+", label: "Years Building React & Node Projects" },
+  { value: 600, suffix: "+", label: "DSA & CP Problems Solved" },
   { value: 4, suffix: "+", label: "End-to-End Platforms Launched" },
   { value: 5, suffix: "+", label: "Campus Tech Events Organized" },
 ];
@@ -116,29 +116,29 @@ const certificateItems = [
     title: "Getting Started with Competitive Programming | NPTEL",
     description:
       "Explored algorithmic paradigms, complexity analysis, and competitive programming workflows through intensive assignments.",
-    imgPath: "/images/exp1.png",
-    link: "https://nptel.ac.in/",
+    imgPath: "/images/certificates/Nptelcpp.png",
+    link: "https://drive.google.com/file/d/1zizPKYH2FgsBudhyw2Vy79_-apcG7ALw/view?usp=drive_link",
   },
   {
     title: "Introduction to Machine Learning | NPTEL",
     description:
       "Studied supervised and unsupervised learning techniques with practical labs on model evaluation and deployment considerations.",
-    imgPath: "/images/exp2.png",
-    link: "https://nptel.ac.in/",
+    imgPath: "/images/certificates/Nptelml.png",
+    link: "https://drive.google.com/file/d/1KddOvPl5h36Xak7gsma7rCQU-nOJY2qx/view?usp=sharing",
   },
   {
     title: "AWS Cloud Practitioner Exam Prep | GeeksforGeeks",
     description:
       "Gained foundational AWS architecture knowledge, cloud economics, and operational best practices for practitioner certification.",
-    imgPath: "/images/exp3.png",
-    link: "https://www.geeksforgeeks.org/",
+    imgPath: "/images/certificates/awsgfg.png",
+    link: "https://drive.google.com/file/d/1M-eRAXxKORB_cUBEM_oRHfxn-ziSdv9x/view?usp=sharing",
   },
   {
     title: "AWS Solutions Architect Associate Prep | GeeksforGeeks",
     description:
       "Deepened expertise in designing highly available, cost-optimized AWS architectures aligned with SAA exam blueprints.",
-    imgPath: "/images/exp1.png",
-    link: "https://www.geeksforgeeks.org/",
+    imgPath: "/images/certificates/awsgfg2.png",
+    link: "https://drive.google.com/file/d/1AhclIStvJit4iIopkverXqrqvWRLB1WX/view?usp=sharing",
   },
 ];
 
@@ -237,21 +237,55 @@ const projectShowcase = {
     title: "StayVista – Seamless Hotel Reservations",
     description:
       "MERN-based travel platform with JWT-secured auth, dynamic calendar bookings, and MongoDB Atlas persistence.",
-    imgPath: "/images/project1.png",
     alt: "StayVista booking dashboard",
+    link: "https://stayvista-uv.vercel.app/",
+    images: [
+      "/images/projects/client/img (3).png",
+      "/images/projects/client/img (4).png",
+      "/images/projects/client/img (5).png",
+      "/images/projects/client/img (6).png",
+      "/images/projects/client/img (7).png",
+      "/images/projects/client/img (8).png",
+      "/images/projects/client/img (9).png",
+      "/images/projects/client/img (10).png",
+      "/images/projects/client/img (11).png",
+      "/images/projects/client/img (12).png",
+      "/images/projects/client/img (13).png",
+      "/images/projects/client/img (14).png"
+      
+    ],
   },
   secondaryProjects: [
     {
-      title: "Terrabiz Admin Analytics Platform",
-      imgPath: "/images/project2.png",
-      alt: "Terrabiz admin dashboard",
+      title: "StayVista SuperAdmin Analytics Platform",
+      alt: "StayVista SuperAdmin dashboard",
       backgroundClass: "bg-[#FFEFDB]",
+      link: "https://stayvista-admin.vercel.app",
+      images: [
+        "/images/projects/Stayvista/img (1).png",
+        "/images/projects/Stayvista/img (2).png",
+        "/images/projects/Stayvista/img (3).png",
+        "/images/projects/Stayvista/img (4).png",
+        "/images/projects/Stayvista/img (5).png",
+        "/images/projects/Stayvista/img (6).png",
+        "/images/projects/Stayvista/img (7).png",
+        "/images/projects/Stayvista/img (8).png",
+        "/images/projects/Stayvista/img (9).png",
+        "/images/projects/Stayvista/img (10).png",
+      ],
     },
     {
       title: "ThoughtTag – Smart Sticky Notes",
-      imgPath: "/images/project3.png",
       alt: "ThoughtTag Chrome extension",
       backgroundClass: "bg-[#FFE7EB]",
+      link: "https://github.com/uvongit/ThoughtTag-ChromeExtension",
+      images: [
+        "/images/projects/img1.png",
+        "/images/projects/img2.png",
+        "/images/projects/img3.png",
+        "/images/projects/img4.png",
+        "/images/projects/img5.png"
+      ],
     },
   ],
 };
